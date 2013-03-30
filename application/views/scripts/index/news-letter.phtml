@@ -1,0 +1,21 @@
+<div id="newsletter">
+    <h4>Newsletter</h4>
+    <?php if ($this->saved) :?>
+    <?php 
+    	if ($this->flash->hasMessages()) {
+	    	$msg = $this->flash->getMessages(); 
+	    	echo $msg[0];
+	    }
+    ?>
+	<?php else :?>
+	 <?php 
+		if ($this->flash->hasMessages()) {
+	    	$msg = $this->flash->getMessages(); 
+	    	echo $msg[0];
+	    }
+     ?>
+
+    <?php echo $this->form;?>
+	<?php endif;?>
+    <div class="cleaner"></div>
+</div>

@@ -1,0 +1,24 @@
+<div id="templatemo_main">
+            <div id="content" class="left">
+                <div class="post">
+                	<?php if (count($this->post) > 0) : ?>
+                    <h2><?php echo $this->post[0]['title'];?></h2>
+                    <div class="post_left">
+                        <ul class="no_bullet post_meta">
+                            <li><strong class="header">Date:</strong><?php echo $this->post[0]['createdAt'];?></li>
+                            <li><strong class="header">Comment:</strong> <a href="blog_post.html">172</a></li>
+                            <li><strong class="header">Author:</strong> <a href="#">Edward</a></li>
+                            <li><strong class="header">Category:</strong> <a href="http://www.templatemo.com">Web Design Gallery</a></li>
+                            <li><strong class="header">Tag:</strong> <a href="#">Development</a>, <a href="#">Design</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="post_right">
+                        <img src="<?php echo $this->post[0]['imgBlog'];?>" alt="Image 01" />
+                        <p>
+                        	<?php echo $this->post[0]['content'];?>
+                        </p>
+                    </div>
+                <?php endif; ?>
+            </div>
+		</div>

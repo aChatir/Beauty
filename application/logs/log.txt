@@ -1,0 +1,30 @@
+[2013-03-16T13:03:02+01:00] : (7) -> DEBUG : 
+	Message :: Configuration must be an array or instance of Zend_Config
+	File :: C:\xampp\htdocs\Beauty\library\Zend\Log.php
+	Line :: 136
+
+[2013-03-16T13:03:30+01:00] : (7) -> DEBUG : 
+	Message :: Configuration must be an array or instance of Zend_Config
+	File :: C:\xampp\htdocs\Beauty\library\Zend\Log.php
+	Line :: 136
+
+[2013-03-16T13:04:53+01:00] : (7) -> DEBUG : 
+	Message :: Here my Exception
+	File :: C:\xampp\htdocs\Beauty\application\controllers\IndexController.php
+	Line :: 23
+
+[2013-03-16T13:06:45+01:00] : (7) -> DEBUG : 
+	Message :: Here my Exception
+	File :: C:\xampp\htdocs\Beauty\application\controllers\IndexController.php
+	Line :: 23
+
+[2013-03-16T13:09:13+01:00] : (7) -> DEBUG : 
+	Message :: Here my Exception
+	File :: C:\xampp\htdocs\Beauty\application\controllers\IndexController.php
+	Line :: 23
+
+[2013-03-16T13:10:05+01:00] : (7) -> DEBUG : 
+	Message :: Here my Exception
+	File :: C:\xampp\htdocs\Beauty\application\controllers\IndexController.php
+	Line :: 23
+

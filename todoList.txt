@@ -1,0 +1,5 @@
+--
+-->decorator generale
+-->backoffice 
+	-->listing article 
+	-->modification , suppression  
